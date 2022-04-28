@@ -41,8 +41,8 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 52, 57, 76; /* ! Profile and Skills 174, 186, 204 */
-  --bs-secondary-rgb: 20, 14, 24; /* ! NAVBAR and Footer 52, 57, 76 */
+  --bs-primary-rgb: 52, 57, 76;
+  --bs-secondary-rgb: 20, 14, 24;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -61,7 +61,7 @@
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
-  --bs-body-bg: #AEBACC; /* ! Projects and Contact Me */
+  --bs-body-bg: #AEBACC;
 }
 
 *,
