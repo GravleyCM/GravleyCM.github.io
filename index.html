@@ -162,21 +162,21 @@
                         <form id="contact-form" action="c5098ede0615705c3ec4003a3a304c84" method="POST">
                             <!-- Name input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." name="name" />
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." name="name" required/>
                                 <label for="name">Full name</label>
                             </div>
                             <!-- Email address input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" name="email" />
+                                <input class="form-control" id="email" type="email" placeholder="name@example.com" name="email" required/>
                                 <label for="email">Email address</label>
                             </div>
                             <!-- Message input-->
                             <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" name="message"></textarea>
+                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" name="message" required></textarea>
                                 <label for="message">Message</label>
                             </div>
                             <!-- Redirect to current page -->
-<!--                             <input type="hidden" name="_next" value=""> -->
+                            <input type="hidden" name="_next" value="">
                             <!-- Automatic subject line -->
                             <input type="hidden" name="_subject" value="New submission!">
                             <!-- Submit Button-->
